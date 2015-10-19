@@ -74,5 +74,6 @@ this behavior.
 By default, the script attempts to deploy themes by calling the `deploy-theme.sh` script.
 If you don't want this, turn the *DEPLOY_THEME* flag to `false` into the `install.sh` script.
 
-
+##Known issues
+ - Currently, it seems NGINX is not installed. This is a bug from `deploy-ghost`. We need to change this script to fill-in the gaps. Currently, just run `sudo apt-get install nginx` prior to running the install script for a quick fix.
 

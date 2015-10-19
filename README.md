@@ -4,6 +4,7 @@ scripts are functional only under a Linux Debian environment (Debian, Ubuntu, Mi
 
 ##Tested under
  - *Linux Mint 17.2 Rafaela*
+ - *Ubuntu 14.04* (with *INSTALL_DEPENDENCIES* set to false)
 
 ##Features
 - Install and deploy *Ghost* under a few minutes.
